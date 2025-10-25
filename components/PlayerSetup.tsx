@@ -79,7 +79,6 @@ const PlayerSetup: React.FC<PlayerSetupProps> = ({ onStartGame }) => {
 
         <button
           onClick={handleAddPlayer}
-          disabled={players.length >= 8 || !newPlayerName.trim()}
           className="w-full font-display bg-pink-600 text-white font-bold py-3 px-4 rounded-lg text-xl hover:bg-pink-700 active:scale-95 transition-transform disabled:bg-slate-600 disabled:cursor-not-allowed"
         >
           Ajouter
